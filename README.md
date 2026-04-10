@@ -50,7 +50,9 @@ Build a simple library management page where:
 ---
 
 ## 📂 Project Structure
+
 Simple-library-management/
+
 │
 ├── index.html
 ├── style.css
@@ -69,5 +71,6 @@ Simple-library-management/
 ---
 
 ## 📸 Screenshots
-![Home Page](https://user-images.githubusercontent.com/87519174/206407084-547902a8-7f6a-4971-b906-7397483b0f99.png)  
-![Book Listing](https://user-images.githubusercontent.com/87519174/206407093-86a04ab1-9fa5-4514-b414-37b34f039fc0.png)
+![Home Page](https://github.com/user-attachments/assets/63e8d9ad-23fe-4f60-b241-50eea5978337)
+  
+![Book Listing](https://github.com/user-attachments/assets/ceda686f-d69b-4452-bc70-a4060fc9b7aa)
