@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digyug Library Management</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+          rel="stylesheet" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <h1 class="logo"><a href="#">Digyug Library Management</a></h1>
+      <ul class="main-nav">
+        <li><a href="index.html">Home</a></li>
+        <!-- Replace with your actual portfolio link -->
+        <li><a href="#" >About Me</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- Main Content -->
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search book title here..."
+        />
+        <button id="search">Search</button>
+      </div>
+
+      <!-- Category Buttons -->
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Basic')">Basic</button>
+        <button class="button-value" onclick="filterProduct('IT')">IT</button>
+        <button class="button-value" onclick="filterProduct('CSE')">CSE</button>
+        <button class="button-value" onclick="filterProduct('ISE')">ISE</button>
+        <button class="button-value" onclick="filterProduct('Novel')">Novel</button>
+        <button class="button-value" onclick="filterProduct('Fantasy')">Fantasy</button>
+      </div>
+
+      <!-- Books Display Section -->
+      <div id="Books"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer">
+        <!-- Social Media Links -->
+        <div class="row">
+          <!-- Replace with your actual social media links -->
+          <a href="https://github.com/Rudrakshi26-art" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/your-instagram-username/" target="_blank">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa fa-youtube"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="row">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row">
+          © 2026 Rudrakshi Rathore | All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
