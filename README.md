@@ -65,7 +65,7 @@ Simple-library-management/
 
 ## 🌐 Live Demo
 🔗 **Link to Project Demonstration:**  
-👉 https://your-netlify-link.netlify.app/
+👉 [https://your-netlify-link.netlify.app/](https://simple-library-management-system.netlify.app/)
 
 
 ---
